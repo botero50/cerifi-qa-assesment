@@ -12,6 +12,7 @@ This is the code created followind the challenge sent by the team and following 
  - run this command 'npx cypress run'
 
 ## Structure of the framework
+```
 cypress/
     ├── e2e/
     ├── fixtures/
@@ -19,11 +20,12 @@ cypress/
     ├── pages/
     │   ├── loginPage.js
     │   └── homePage.js
-    ├── screenshoots/
+    ├── screenshots/
     └── support/
         ├── commands.js
         └── e2e.js
     └── video/
+```
 
 ### e2e folder
 This folder contains all the testcases created for this challenge
